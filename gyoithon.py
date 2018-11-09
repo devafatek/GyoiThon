@@ -226,7 +226,7 @@ def show_banner(utility):
  ╚═════╝   ╚═╝    ╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝  (beta)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 """ + 'by ' + os.path.basename(__file__)
-    utility.print_message(NONE, banner)
+    #utility.print_message(NONE, banner)
     show_credit(utility)
     time.sleep(3.0)
 
